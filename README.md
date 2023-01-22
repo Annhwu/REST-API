@@ -1,2 +1,2 @@
-# silver-octo-garbanzo
+# REST API
 V0.1
