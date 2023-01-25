@@ -16,7 +16,7 @@ export function Form() {
         mail: formData.mail
     }
 
-    axios.post('http://localhost:4000/api', bodyData)
+    axios.post('http://192.168.1.26:4000/api', bodyData)
       .then(response => {
         console.log(response);
       })

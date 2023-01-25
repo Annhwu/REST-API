@@ -6,7 +6,7 @@ const DeleteAll = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.delete('http://localhost:4000/api', {
+            const response = await axios.delete('http://192.168.1.26:4000/api', {
                 headers: {
                     'Content-Type': 'application/json'
                 }
