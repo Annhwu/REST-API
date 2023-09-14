@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const models = require('./models/model');
 
-mongoose.connect('mongodb+srv://annhwu:a2e9h4a2e9h4@cluster0.6cqnvjd.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://"name":"password"@cluster0.6cqnvjd.mongodb.net/?retryWrites=true&w=majority',
 {
     useNewUrlParser: true,
     useUnifiedTopology: true })
